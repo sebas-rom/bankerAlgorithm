@@ -87,12 +87,12 @@ if __name__ == "__main__":
     banquero(n_procesos, n_recursos, maximo, asignado, disponible,True)
     
     print("\n\n\tPara una configuración diferente:\n")
-    disponible2 = np.array([6, 5, 5, 5, 5]) #recursos minimos necesarios del ejemplo
+    disponible2 = np.array([6, 5, 5, 5, 5]) 
 
     banquero(n_procesos, n_recursos, maximo, asignado, disponible2,True)
     
     print("\n\n\tPara una configuración no segura:\n")
-    disponible2 = np.array([6, 5, 2, 3, 2]) #recursos minimos necesarios del ejemplo
+    disponible2 = np.array([6, 5, 2, 3, 2])
 
     banquero(n_procesos, n_recursos, maximo, asignado, disponible2,True)
     
